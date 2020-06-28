@@ -30,7 +30,8 @@ export default {
     return {
       loginForm: {
         name: "",
-        pass: ""
+        pass: "",
+        repass:""
       },
       rules: {
         name: [{ required: true, message: "请输入用户名", trigger: "blur" }],
